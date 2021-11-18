@@ -7,6 +7,7 @@ fun main(array: Array<String>){
 
     val reward = Reward()
     reward.rewardAmount=2000
+
 }
 
 class Reward() {
@@ -23,5 +24,12 @@ class TestAccess {
 
     fun test() {
         println("테스트")
+    }
+}
+
+class RunningCar(){
+
+    private fun run(){
+
     }
 }
